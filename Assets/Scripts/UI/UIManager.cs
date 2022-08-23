@@ -40,8 +40,15 @@ namespace MoveIfYouDare.Core.UI
 
         private void DisablePanels()
         {
-            uiPanel?.SetActive(false);
-            menuPanel?.SetActive(false);
+            if (uiPanel != null)
+            {
+                uiPanel?.SetActive(false);
+            }
+            if (menuPanel != null)
+            {
+                menuPanel?.SetActive(false);
+            }
+            
         }
 
         

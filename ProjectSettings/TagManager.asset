@@ -6,6 +6,7 @@ TagManager:
   tags:
   - LightZone
   - Enemy
+  - ClimbZone
   layers:
   - Default
   - TransparentFX
